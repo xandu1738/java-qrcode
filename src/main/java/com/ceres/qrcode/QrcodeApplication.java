@@ -15,7 +15,7 @@ public class QrcodeApplication {
         SpringApplication.run(QrcodeApplication.class, args);
         String qrCodeText = "https://www.amigoscode.com";
         String filePath = "qrImage.png";
-        int size = 300;
+        int size = 250;
         String fileType = "png";
         File qrFile = new File(filePath);
         createQRImage(qrFile, qrCodeText, size, fileType);
