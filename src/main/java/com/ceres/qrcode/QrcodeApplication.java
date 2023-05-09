@@ -14,7 +14,7 @@ public class QrcodeApplication {
     public static void main(String[] args) throws IOException, WriterException {
         SpringApplication.run(QrcodeApplication.class, args);
         String qrCodeText = "https://www.amigoscode.com";
-        String filePath = "JD.png";
+        String filePath = "qrImage.png";
         int size = 300;
         String fileType = "png";
         File qrFile = new File(filePath);
